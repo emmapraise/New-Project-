@@ -1,0 +1,144 @@
+.top{
+	background-color: #EE3B24;
+	padding: 10px;
+}
+.search{
+	background:#DC839C;
+	border:none;
+	color: white;
+	float: right;
+	margin-right: 70px;
+	padding: 3px;
+	padding-right: 4px;
+}
+.ok{
+	background-color: #DC839C;
+	border:none;
+}
+.theme-color{
+	color: #EE3B24;
+}
+.menu{
+	float: right;
+}
+.logo{
+	*text-decoration: none;
+}
+.slider{
+	background-image:url(../img/skii.jpg);
+	background-size: cover;
+	height: 500px;
+	color: white;
+	*text-shadow: 10px balck;
+	-webkit-animation-name: slid;
+	-webkit-animation-duration:15s;
+	-webkit-animation-delay:4s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:all;
+	animation-name: slid;
+	animation-direction: 15s;
+	animation-delay: 4s;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes slid{
+	0%{background-image: url(../img/skii.jpg);}
+	25%{background-image: url(../img/tour1.jpg);}
+	50%{background-image: url(../img/flight1.jpg);}
+	75%{background-image: url(../img/ski.jpg);}
+	100%{background-image: url(../img/place.jpg);}
+}
+@keyframes slid{
+	0%{background-image: url(../img/skii.jpg);}
+	25%{background-image: url(../img/tour1.jpg);}
+	50%{background-image: url(../img/flight1.jpg);}
+	75%{background-image: url(../img/ski.jpg);}
+	100%{background-image: url(../img/place.jpg);}
+}
+.zurich{
+	background-image: url(../img/zurich.jpg);
+	background-size: cover;
+	*width: 500%;
+	*height: 500%;
+}
+.zealand{
+	background-image: url(../img/place.jpg);
+	background-size: cover;
+}
+.maldives{
+	background-image: url(../img/place3.jpg);
+	background-size: cover;
+}
+.book{
+	background:none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid  black 3px;
+	text-shadow: 2px 2px black;
+}
+.slider-word{
+	margin-top: 18%;
+	margin-bottom: 25%;
+	text-shadow: 2px 2px black;
+	text-transform: uppercase;
+}
+.book:hover{
+	background-color: #EE3B24;
+	*border-radius: 5px;
+	border:  solid white 3px;
+	color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.vision{
+	background-image: url(../img/-787862826.jpg);
+	color: white;
+}
+.growth{
+	background-image: url(../img/-788755739.jpg);
+	color: white;
+}
+.cites{
+	text-align: center;
+	*margin: 25%;
+	padding: 25%;
+	*margin-left: 100px;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+.col-sm-4 a{
+	text-decoration: none;
+}
+.button{
+	background-color: #EE3B24;
+	color: white;
+	border:none;
+	padding: 5px;
+}
+.footer-ul{
+	list-style: none;
+	text-decoration: none;
+}
+.footer-li a{
+	color: white;
+	text-decoration: none;
+}
+.drop{
+	position: relative;
+	display: inline-block;
+}
+.drop-me{
+	list-style: none;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	color: #EE3B24;
+}
+.drop:hover .drop-me{
+	display: block;
+}
+.menu-li a{
+	color: #EE3B24;
+	text-decoration: none;
+}
